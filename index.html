@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca do carro perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <header>Em Busca do carro perdido</header>
+            <img src="img/carro-perdido.jpeg" alt="Inicio da Jornada">
+            <p>Um dia desses, dentro de umas pastas na mecânica do hélio, eu descobri uma carta antiga sobre um carro lendário abandonado. Nessa carta, a autora deixa algumas pistas para encontrar esse carro e eu decidi segui-las!</p>
+            <button class="btn-proximo" data-proximo="1">Barra Bonita</button>
+            <button class="btn-proximo" data-proximo="2">Igaraçu do Tietê</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/avenida jao paulo.jpeg"Chegamos em Barra Bonita">
+            <p>Você começa sua jornada em Barra Bonita, subindo a avenida João Paulo II, em direção a antiga mecânica do porto, ao amanhecer para encontrar a primeira pista.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista na mecânica do porto</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para a mecânica do hélio</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/igaraçu.jpeg" alt="Em Igaraçu">
+            <p>Em Igaraçu, você visita a linda cidade. Na carta, uma das pistas indica que para localizar a entrada para o carro lendârio abandonado você deve procurar a próxima pista em um dos pontos de encontros automótivos da cidade. Por qual você começa?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar o posto do seu zé</button>
+            <button class="btn-proximo" data-proximo="6">Explorar a Prainha</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <img src="img/mecanica porto.jpeg" alt="Chegando mecânica do porto">
+            <p>Ao chegar na antiga mecânica do porto, você encontra uma antiga inscrição apontando que a próxima pista está
+                localizada na rodovia BRB-010, próxima a USINA BARRA S/A.</p>
+                <button class="btn-proximo" data-proximo="7">Seguir para a Rodovia</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/mecanica helio.jpeg"O retorno para a mecânicado hélio">
+            <p>Você decide que a aventura é grande demais e volta para a mecânica do hélio, retomar seus estudos, mas sempre se pergunta o que teria
+                como seria se você tivesse econtrando esse carro.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="img/posto do ze.jpeg" alt="chegando no posto do seu zé">
+            <p>No posto do seu zé, você descobre uma mecânica em foto escondido atrás do altar, apontando que a próxima
+                pista na rodovia BRB-010, próxima a USINA BARRA S/A.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para a Rodovia</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="img/prainha.jpeg"Na Prainha">
+            <p>Explorando a pranha você não encontra nada a não ser os velhos restaurantes abandonados.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar o posto do zé</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="img/br 010.jpeg"Dificil escolha">
+            <p>Na Rodovia BRB-010, a busca pelo carro perdido se intensifica. Você se depara com um caminho bifurcado.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo caminho a frente</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo caminho à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="img/posto do ze.jpeg" alt="No posto do zé">
+            <p>De volta ao posto do ze, você finalmente encontra fotos. Agora, para a Rodovia!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Rodovia</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="img/mecanica velha.jpeg" alt="Entrada para a mecânica do carro abandonado">
+            <p>No caminho à frente leva você a uma bela estrada com inscrições antigas que revelam a entrada da
+                mecânica a onde está o carro abandonado.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a mecânica perdida</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="img/caminho direita.jpeg"Inicio da Jornada">
+            <p>O caminho à direita segui por aqui porém não a nada na parte de dentro.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro caminho</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/s15.jpeg"Chegamos a mecânica do carro abandonado">
+            <p>Dentro da mecânica no lado de fora você encontra o lendário carro abandonado e mesmo com tempo o mesmo está conservado</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="img/mecanica velha.jpeg" alt="direto para mecanica">
+            <p>Retornando e escolhendo o caminho à frente você encontra caminhos para a mecânica a onde está o carro.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a mecânica</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
